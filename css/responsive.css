@@ -1,0 +1,153 @@
+/* md device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.md-full{width:100%}
+.basic-menu li {
+  margin-left: 30px;
+}
+.team-social-icon a {
+  margin: 0 1px;
+}
+
+
+
+
+}
+
+ 
+/* sm device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.menu-area {
+  padding: 15px;
+}
+.logo {
+  margin-top: 0;
+}
+.dep-style-2 {
+  padding: 35px 15px;
+}
+.slider-style-fix .slider-text {
+  margin-bottom: 35px;
+  margin-top: 0;
+}
+.appoin-bottom .slider-text{margin-bottom:60px;}
+.header-transparent .mean-container a.meanmenu-reveal span {
+  background: #ffffff none repeat scroll 0 0;
+}
+.header-transparent .mean-container a.meanmenu-reveal {
+  border: 1px solid #ffffff;
+}
+.counter-box {
+  padding: 80px 8px;
+}
+.table-schedule thead th {
+  padding: 10px 20px 20px;
+}
+.department-details {
+  margin-bottom: 40px;
+}
+
+
+}
+
+ 
+/* xs device :320px. */
+@media (max-width: 767px) {
+/* .container {width:300px} */
+.xs-full{width:100%}
+.call-to-action {
+  text-align: center;
+}
+.menu-area {
+  padding: 15px;
+}
+.call-to-action li {
+  margin: 0 5px;
+}
+.social-icon {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.logo {
+  margin-top: 0;
+}
+.call-to-action li {
+  margin: 0 5px;
+}
+.social-icon {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.area-title {
+  width: 90%;
+}
+.slider-style-fix .slider-text {
+  margin-bottom: 35px;
+  margin-top: 0;
+}
+.appoin-bottom{padding:100px 0}
+.appoin-bottom .slider-text{margin-bottom:0;}
+.height-100{height:70vh}
+.header-transparent .mean-container a.meanmenu-reveal span {
+  background: #ffffff none repeat scroll 0 0;
+}
+.header-transparent .mean-container a.meanmenu-reveal {
+  border: 1px solid #ffffff;
+}
+.counter-box {
+  padding: 30px 0;
+  width: 50%;
+}
+.basic-counter-area {
+  padding: 30px 0;
+}
+.table-schedule thead th {
+  padding: 10px 10px 20px;
+}
+.portfolio-item {
+  width: 100%;
+}
+.portfolio-2 .portfolio-item {
+  width: 100%;
+}
+.filter-menu {
+  text-align: center;
+}
+.filter-menu button {
+  margin: 0 5px 5px;
+  padding: 0;
+}
+.select-option {
+  display: inline-block;
+  float: none;
+  margin-left: 0;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.large-product-tab {
+  width: 70px;
+}
+.tab-content.large-img-content {
+  padding-right: 85px;
+}
+.large-product {
+  margin-bottom: 30px;
+}
+.shop-tab-menu {
+  margin-left: 0;
+}
+.shop-list .product-img {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.shop-list .product-content {
+  padding-left: 0;
+  width: 100%;
+}
+ 
+}
+ 
+/* xs large device :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
