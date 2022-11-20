@@ -5,6 +5,5 @@ $(function () {
 	// 	})
 	// 	console.log(data);
 	// }
-	// getData()
-	console.log(1111);
+	// getData();
 })
