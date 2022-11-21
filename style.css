@@ -639,6 +639,15 @@ nav.nav-menu-show {
   padding-right: 50px;
   width: 70%;
 }
+@media (max-width: 767px) {
+  .area-title .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .area-title .content .text {
+    width: 100%;
+  }
+}
 .area-title p {
   text-indent: 2em;
   font-size: 18px;
@@ -667,6 +676,11 @@ nav.nav-menu-show {
   display: inline-block;
   height: 163px;
   width: 512px;
+}
+@media (max-width: 767px) {
+  .logoImg img {
+    width: 100%;
+  }
 }
 .linkTitle p{
   color: #505050;
