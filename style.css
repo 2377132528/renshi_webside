@@ -2002,6 +2002,18 @@ ul.list-default > li::before {
 }
 /* 20. blog */
 
+#pb_container {
+  -webkit-column-width:354px; /*Safari and Chrome*/
+    -moz-column-width:354px; /*Firefox*/
+    -o-column-width:354px; /*Opera*/
+    -ms-column-width:354px; /*IE*/
+    column-width:354px;
+}
+#pb_container>div{
+  width:354px; /*宽度根据实际情况调节，应与上面一致*/
+  overflow:auto; /*防止内容溢出导致布局错位*/
+}
+
 .post {
     margin: 0 0 70px;
 }
