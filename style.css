@@ -348,7 +348,7 @@ label {
 }
 .basic-menu > li:last-child:after{display:none}
 .basic-menu li a {
-  color: #232332;
+  color: #505052;
   display: inline-block;
   text-transform: uppercase;
   position: relative;
