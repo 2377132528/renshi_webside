@@ -785,7 +785,7 @@ nav.nav-menu-show {
   font-family: serif;
 }
 .area-title h2::after {
-  background: #2b96cc none repeat scroll 0 0;
+  background: rgba(247,147,30, 0.8) none repeat scroll 0 0;
   bottom: 0;
   content: "";
   display: block;
@@ -1533,7 +1533,7 @@ color: #ffffff;
 }
 .custom-tab li.active a {
   background: #fff none repeat scroll 0 0;
-  border-color: #1696e7;
+  border-color: rgba(247,147,30, 0.8);
   font-family: serif;
 }
 .tab-content.suggestions .tab-pane {
@@ -1573,7 +1573,7 @@ color: #ffffff;
 }
 
 .panel-default > .panel-heading {
-  background-color: #1696e7;
+  background-color: rgba(247,147,30, 0.8);
   border-radius: 0;
   color: #fff;
   height: 40px;
@@ -2838,12 +2838,16 @@ ul.tag li a:hover{background:#1696E7;border-color:#1696E7;color:#fff}
 /* 27. link-shop */
 .linkShop {
   height: 200px;
-  background: url('img/bg/bg-1.jpg') repeat;
+  /* background: url('img/bg/bg-1.jpg') repeat; */
 }
 .linkShop .link {
   display: block;
   height: 200px;
   width: 100%;
+  background-color: rgba(247,147,30, 0.8);
+  font-size: 40px;
+  line-height: 200px;
+  color: #646464;
 }
 
 a#scrollUp {
