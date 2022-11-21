@@ -34,6 +34,7 @@
 24. checkout
 25. product-details
 26. account page
+27. link-shop
 */
 
 
@@ -104,6 +105,7 @@ h4 a,
 h5 a,
 h6 a { 
     color: inherit;
+    font-family: serif;
 }
 h1 {
     font-size: 40px;
@@ -135,6 +137,7 @@ p {
   line-height: 24px;
   color: #7e7e7e;
   margin-bottom: 15px;
+  font-family: serif;
 }
 hr {
   border-bottom: 1px solid #eceff8;
@@ -189,7 +192,7 @@ label {
 /* button style */
 .btn {
   -moz-user-select: none;
-  background: #1696e7 none repeat scroll 0 0;
+  background: rgba(247,147,30, 0.8) none repeat scroll 0 0;
   border: medium none;
   border-radius: 2px;
   color: #fff;
@@ -207,10 +210,11 @@ label {
   transition: all 0.3s ease 0s;
   vertical-align: middle;
   white-space: nowrap;
+  font-family: serif;
 }
-.btn.btn-black{background:#303b41;}
-.btn.btn-black:hover{background:#1a1a1a;}
-.btn:hover{background:#106fab;color:#fff}
+.btn.btn-black{background:rgba(247,147,30, 0.8);}
+.btn.btn-black:hover{background:#f7931e;}
+.btn:hover{background:#f7931e;color:#fff}
 .btn.btn-large {
   padding: 10px 25px;
 }
@@ -222,21 +226,23 @@ label {
 .btn.btn-base.btn-link {
   background: transparent none repeat scroll 0 0;
   border: 0 none;
-  color: #1696e7;
+  color: rgba(247,147,30, 0.8);
   padding: 0;
   text-decoration: none;
+  font-family: serif;
 }
 .btn.btn-base.btn-link:hover {
-  color: #106fab;
+  color: #f7931e;
 }
 
-.theme-bg{background:#1696e7}
+.theme-bg{background: rgba(247,147,30, 0.8)}
 .gray-bg{background:#fafafa;}
 .bg-white {
   background-color: #ffffff;
 }
 .breadcrumb > .active {
   color: #f6f6f6;
+  font-family: serif;
 }
 
 .bg-1 {
@@ -310,6 +316,7 @@ label {
   font-size: 14px;
   margin-right: 20px;
   padding: 6px 0;
+  font-family: serif;
 }
 .call-to-action li span {
   font-weight: bold;
@@ -348,9 +355,10 @@ label {
   font-size: 12px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  font-family: serif;
 }
 .basic-menu > li > a::before {
-  background: #2b96cc none repeat scroll 0 0;
+  background: rgba(247,147,30, 0.8) none repeat scroll 0 0;
   bottom: 23px;
   content: "";
   height: 4px;
@@ -366,7 +374,7 @@ label {
   padding: 30px 0;
 }
 .basic-menu li:hover > a {
-  color: #2b96cc;
+  color: rgba(247,147,30, 0.8);
 }
 .basic-menu li:hover > a:before{opacity:1;}
 .basic-menu li ul {
@@ -420,12 +428,13 @@ label {
   display: block;
   font-size: 11px;
   padding: 10px 15px;
+  font-family: serif;
 }
 .header-transparent .basic-menu li ul li a {
   color: #232332;
 }
 .basic-menu li ul li:hover > a ,.header-transparent .basic-menu li ul li:hover a {
-  background: #1696e7 none repeat scroll 0 0;
+  background: rgba(247,147,30, 0.8) none repeat scroll 0 0;
   color: #fff;
 }
 .basic-menu li ul li a span {
@@ -579,17 +588,20 @@ nav.nav-menu-show {
   -webkit-animation-name: fadeOutDown;
   animation-name: fadeOutDown; }
 .hero-slide .text-animation h2{
-
+  font-family: serif;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s; 
 }
 .owl-item.active .hero-slide h2 {
   animation-name: fadeInUp;
+  font-family: serif;
 }
-.owl-item.active .hero-slide  p {
+.owl-item.active .hero-slide p {
+  font-family: serif;
   animation-name: fadeInUp;
 }
 .owl-item.active .slider-text a {
+  font-family: serif;
   animation-name: fadeInUp;
 }
 
@@ -630,6 +642,7 @@ nav.nav-menu-show {
 .area-title p {
   text-indent: 2em;
   font-size: 18px;
+  font-family: serif;
 }
 .area-title h2,.area-title2 h2 {
   display: inline-block;
@@ -640,10 +653,12 @@ nav.nav-menu-show {
   padding-bottom: 20px;
   position: relative;
   text-transform: uppercase;
+  font-family: serif;
 }
 .area-title2 > h2 {
   margin: 0 0 10px;
   padding: 0;
+  font-family: serif;
 }
 .area-title2 {
   margin-bottom: 45px;
@@ -656,6 +671,7 @@ nav.nav-menu-show {
 .linkTitle p{
   color: #505050;
   font-size: 16px;
+  font-family: serif;
 }
 .linkTitle p:hover{
   color: #e5963e;
@@ -678,6 +694,7 @@ nav.nav-menu-show {
 .story .date .day {
   font-size: 22px;
   font-weight: 600;
+  font-family: serif;
 }
 .story .date .y_m {
   flex: 1;
@@ -685,11 +702,13 @@ nav.nav-menu-show {
   align-items: end;
   font-size: 18px;
   color: rgb(161, 161, 161);
+  font-family: serif;
 }
 .story .storyContent {
   padding-left: 30px;
   color: rgb(161, 161, 161);
   line-height: 30px;
+  font-family: serif;
 }
 #development_container {
   position: relative;
@@ -722,10 +741,12 @@ nav.nav-menu-show {
   font-size: 26px;
   font-weight: 600;
   color: rgb(82, 81, 81);
+  font-family: serif;
 }
 .development .development_card .date .y-m {
   font-size: 18px;
   color: rgb(110, 110, 110);
+  font-family: serif;
 }
 .development .development_card .info {
   width: 458px;
@@ -736,6 +757,7 @@ nav.nav-menu-show {
 }
 .development .development_card .info .title {
   margin-bottom: 20px;
+  font-family: serif;
 }
 .development .development_card .info .title:hover {
   cursor: pointer;
@@ -746,6 +768,7 @@ nav.nav-menu-show {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-family: serif;
 }
 .area-title h2::after {
   background: #2b96cc none repeat scroll 0 0;
@@ -784,12 +807,14 @@ nav.nav-menu-show {
 }
 .features-box h3 {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
   margin: 25px 0 17px;
   text-transform: uppercase;
+  font-family: serif;
 }
 .features-box p {
   margin-bottom: 25px;
+  font-family: serif;
 }
 #AISF img{
   display: inline-block;
@@ -1118,14 +1143,14 @@ h2.department-name {
   text-align: center;
 }
 .doctor-box .doctor-name .heading {
-  color: #1696e7;
+  color: rgba(247,147,30, 0.8);
 }
 .doctor-box .doctor-name .doctor-desig {
   display: block;
   margin-top: 10px;
 }
 hr.hr-1 {
-  border-bottom: 2px solid #1696e7;
+  border-bottom: 2px solid rgba(247,147,30, 0.8);
   margin: 20px auto;
   width: 50px;
 }
@@ -1135,7 +1160,7 @@ hr.hr-1 {
 }
 
 .doctor-contact {
-  background-color: #1696e7;
+  background-color: rgba(247,147,30, 0.8);
   color: #fff;
   margin-bottom: 20px;
   padding: 20px;
@@ -1154,7 +1179,7 @@ hr.hr-1 {
   background-color: #fff;
   border-radius: 50%;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
-  color: #1696e7;
+  color: rgba(247,147,30, 0.8);
   float: left;
   font-size: 14px;
   height: 25px;
@@ -1166,9 +1191,11 @@ hr.hr-1 {
 .doctor-details .doctor-name {
   font-weight: 500;
   margin-bottom: 10px;
+  font-family: serif;
 }
 .doctor-details .doctor-desig {
-  color: #1696e7;
+  color: rgba(247,147,30, 0.8);
+  font-family: serif;
 }
 .doctor-details .doctor-edu li {
   background-color: #f2f2f2;
@@ -1177,6 +1204,7 @@ hr.hr-1 {
   font-weight: 400;
   margin-right: 10px;
   padding: 3px 10px;
+  font-family: serif;
 }
 .doctor-details .doctor-edu {
   list-style: outside none none;
@@ -1198,11 +1226,12 @@ ul.list-styled > li {
   padding: 6px 10px 6px 0;
   position: relative;
   text-align: left;
+  font-family: serif;
 }
 ul.list-styled > li::before {
-  border: 1px solid #1696e7;
+  border: 1px solid rgba(247,147,30, 0.8);
   border-radius: 50%;
-  color: #1696e7;
+  color: rgba(247,147,30, 0.8);
   content: "";
   display: inline-block;
   font: 15px/15px FontAwesome;
@@ -1330,6 +1359,13 @@ color: #ffffff;
   margin: 5px 10px 0 0;
   transition: all 0.2s ease-in-out 0s;
 }
+.footer_container {
+
+}
+.footer_container .footer_row {
+  display: flex;
+  justify-content: center;
+}
 .newsletter i {
   float: left;
   font-size: 20px;
@@ -1371,6 +1407,12 @@ color: #ffffff;
   font-size: 16px;
   line-height: 28px;
   width: 25px;
+}
+.wangan {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('img/wangan.png') no-repeat;
 }
 .contact-widget ul li p {
   margin-left: 27px;
@@ -1478,6 +1520,7 @@ color: #ffffff;
 .custom-tab li.active a {
   background: #fff none repeat scroll 0 0;
   border-color: #1696e7;
+  font-family: serif;
 }
 .tab-content.suggestions .tab-pane {
   background-color: #fff;
@@ -1532,9 +1575,13 @@ color: #ffffff;
 .panel-title > a {
   color: #fff;
   display: block;
+  font-family: serif;
 }
 .panel-title .fa {
   margin-right: 10px;
+}
+#panel-body {
+  font-family: serif;
 }
 /* 12. testimonial */
 .testimonial-box{}
@@ -1581,12 +1628,17 @@ margin: 0;}
   font-weight: 700;
   letter-spacing: 6px;
   text-transform: uppercase;
+  font-family: serif;
 }
 .breadcrumb {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   border-radius: 0;
   margin-bottom: 0;
   padding: 0;
+}
+.breadcrumb > li > a {
+  color: rgba(247,147,30, 0.8);
+  font-family: serif;
 }
 .bg-opacity{position:relative;}
 .bg-opacity:before {
@@ -1610,6 +1662,7 @@ margin: 0;}
   font-weight: 500;
   letter-spacing: 2px;
   margin-bottom: 15px;
+  font-family: serif;
 }
 .contact-person .map {
   width: 400px;
@@ -1921,7 +1974,7 @@ ul.list-default > li::before {
 /* 19. 404 */
 .404-text{}
 .error-text h1 {
-  color: #207fdc;
+  color: rgba(247,147,30, 0.8);
   font-family: inherit;
   font-size: 200px;
   font-weight: bold;
@@ -1942,6 +1995,7 @@ ul.list-default > li::before {
 .post .post-title {
     font-size: 23px;
     margin-bottom: 10px;
+    font-family: serif;
 }
 
 .post .post-content {
@@ -1969,6 +2023,11 @@ ul.list-default > li::before {
     font-weight: 700;
     font-size: 11px;
     color: #999;
+    font-family: serif;
+}
+
+.post-meta > li > a {
+  color: rgba(247,147,30, 0.8);
 }
 
 .post-meta > li + li:before {
@@ -2749,8 +2808,20 @@ ul.tag li a:hover{background:#1696E7;border-color:#1696E7;color:#fff}
   font-size: 20px;
   font-weight: 500;
 }
+
+/* 27. link-shop */
+.linkShop {
+  height: 200px;
+  background: url('img/bg/bg-1.jpg') repeat;
+}
+.linkShop .link {
+  display: block;
+  height: 200px;
+  width: 100%;
+}
+
 a#scrollUp {
-  background: #1696e7 none repeat scroll 0 0;
+  background: rgba(247,147,30, 0.8) none repeat scroll 0 0;
   bottom: 50px;
   color: #fff;
   height: 40px;

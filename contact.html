@@ -35,7 +35,7 @@
 					<div class="row">
 						<div class="col-sm-8">
 							<ul class="call-to-action list-inline">
-								<li><span>Email Us : </span> hr@myaidoctor.com</li>
+								<li><span>Email Us : </span> hr@aiknowdoctor.com</li>
 								<li><span>Call Us : </span> +0571-87601332</li>
 							</ul>						
 						</div>					
@@ -154,8 +154,8 @@
 						<div class="contact-person">
 							<h4>浙江</h4>
 							<p>地址：浙江省杭州市余杭区良睦路1299号梦想小镇创业集市3幢2楼</p>
-							<p><i class="fa fa-phone"></i> 电话：hr@myaidoctor.com</p>
-							<p><i class="fa fa-envelope-o"></i> 邮箱：hr@myaidoctor.com</p>
+							<p><i class="fa fa-phone"></i> 电话：hr@aiknowdoctor.com</p>
+							<p><i class="fa fa-envelope-o"></i> 邮箱：hr@aiknowdoctor.com</p>
 							<div class="map">
 								<img src="img/map/1.png" alt="">
 							</div>
@@ -166,8 +166,8 @@
 						<div class="contact-person">
 							<h4>上海</h4>
 							<p>地址：上海市静安区万荣路777弄1号龙盛777商务大厦1002室</p>
-							<p><i class="fa fa-phone"></i> 电话：hr@myaidoctor.com</p>
-							<p><i class="fa fa-envelope-o"></i> 邮箱：hr@myaidoctor.com</p>
+							<p><i class="fa fa-phone"></i> 电话：hr@aiknowdoctor.com</p>
+							<p><i class="fa fa-envelope-o"></i> 邮箱：hr@aiknowdoctor.com</p>
 							<div class="map">
 								<img src="img/map/2.png" alt="">
 							</div>
@@ -179,13 +179,11 @@
 		<!-- basic-contact-area end -->						
 		
 		<footer>			
-			<div class="footer-top-area gray-bg pt-90 pb-50">
-				<div class="container">				
-					<div class="row">	
-						<div class="col-md-12 mb-40">					   
-							<div class="footer-widget">						
-								<h4><span>联系方式</span></h4>
-								<p>杭州认识科技有限公司</p>
+			<div class="footer-top-area gray-bg pt-30 pb-0">
+				<div class="footer_container">				
+					<div class="row footer_row">	
+						<div class="col-md-4 mb-40">					   
+							<div class="footer-widget">
 								<div class="contact-widget">
 									<ul>
 										<li>
@@ -196,27 +194,47 @@
 											<i class="fa fa-mobile" style="font-size: 26px;"></i><p>电话：0571-87601332</p>	
 										</li>
 										<li>
-											<i class="fa fa-envelope"></i><p class="phone-number">邮箱：hr@myaidoctor.com</p>	
+											<i class="fa fa-envelope"></i><p class="phone-number">邮箱：hr@aiknowdoctor.com</p>	
 										</li>
 										<li>
 											<i class="fa fa-home"></i><p>上海：上海市静安区万荣路777弄1号龙盛777商
 												务大厦1002室</p>	
 										</li>
 										<li>
-											<i class="fa fa-envelope"></i><p class="phone-number">邮箱：hr@myaidoctor.com</p>	
+											<i class="fa fa-envelope"></i><p class="phone-number">邮箱：hr@aiknowdoctor.com</p>	
 										</li>
 									</ul>
 								</div>						
 							</div>					
-						</div>			
+						</div>
+						<div class="col-md-6 mb-40">					   
+							<div class="footer-widget">
+								<div class="contact-widget">
+									<ul>
+										<li>
+											<p>版权所有：浙江认识科技有限公司</p>	
+										</li>
+										<li>
+											<p>第二类医疗器械经营备案凭证编号：浙杭食药监械经营备20220064号 食品经营许可证编号：JY13301100383701</p>	
+										</li>
+										<li>
+											<p class="phone-number">医疗器械网络销售企业备案编号：（浙杭）网械企备字[2022]第00066号 互联网药品信息服务资格证书编号：（浙）-经营性-2022-0037</p>	
+										</li>
+										<li>
+											<p><i class="wangan"></i>浙公网安备 33011002016437号 浙ICP备20016963号-1</p>	
+										</li>
+									</ul>
+								</div>						
+							</div>					
+						</div>		
 					</div>
 				</div>			
 			</div>		
-			<div class="copyright-area theme-bg">
+			<!-- <div class="copyright-area theme-bg">
 				<div class="container">
 					<p class="copyright text-center">ICP证:浙ICP备19000872号-2</p>	
 				</div>
-			</div>	
+			</div>	 -->
 		</footer>		
 		
 
@@ -227,44 +245,7 @@
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/jquery.meanmenu.js"></script>
         <script src="js/mail.js"></script>
-        <script src="js/isotope.pkgd.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBceNl50o3BU6LrsIGJxSL9tKKvqBKIeVs"></script>
-		<script>
-            // When the window has finished loading create our google map below
-            google.maps.event.addDomListener(window, 'load', init);
-        
-            function init() {
-                // Basic options for a simple Google Map
-                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-                var mapOptions = {
-                    // How zoomed in you want the map to start at (always required)
-                    zoom: 11,
-
-                    scrollwheel: false,
-
-                    // The latitude and longitude to center the map (always required)
-                    center: new google.maps.LatLng(40.6700, -73.9400), // New York
-
-                    // How you would like to style the map. 
-                    // This is where you would paste any style found on Snazzy Maps.
-					styles: [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#46bcec"},{"visibility":"on"}]}]
-                };
-
-                // Get the HTML DOM element that will contain your map 
-                // We are using a div with id="map" seen below in the <body>
-                var mapElement = document.getElementById('map');
-
-                // Create the Google Map using our element and options defined above
-                var map = new google.maps.Map(mapElement, mapOptions);
-
-                // Let's also add a marker while we're at it
-                var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(40.6700, -73.9400),
-                    map: map,
-                    title: 'Snazzy!'
-                });
-            }
-		</script>		
+        <script src="js/isotope.pkgd.min.js"></script>		
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
     </body>
