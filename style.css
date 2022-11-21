@@ -356,6 +356,7 @@ label {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: serif;
+  font-weight: 600;
 }
 .basic-menu > li > a::before {
   background: rgba(247,147,30, 0.8) none repeat scroll 0 0;
