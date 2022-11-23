@@ -245,10 +245,14 @@ label {
   font-family: '黑体';
 }
 
-.top-banner1 {
-  background: rgba(0, 0, 0, 0) url("img/adout/tuandui.png") no-repeat scroll 0 -140px;
+.top-banner {
+  background: rgba(0, 0, 0, 0) url("img/adout/banner.png") no-repeat scroll 0 -140px;
   background-attachment:fixed;
   background-size: 100% 100%;
+}
+.bg-1 {
+  background: url("img/bg/bg-5.png") repeat scroll 0 0;
+  background-position: 0 -260px !important;
 }
 .bg-2 {
   background: rgba(0, 0, 0, 0) url("img/bg/bg-2.jpg") repeat scroll 0 0;
@@ -257,8 +261,8 @@ label {
   background: url('img/adout/banner.png') no-repeat scroll 0 0;
   /* background-repeat: no-repeat; */
   /* background-position: center center; */
-  background-attachment:fixed;
-  background-size: 100% 100%;
+  /* background-attachment:fixed; */
+  background-size: 0 200px !important;
 }
 /* .bg-3 {
   background: rgba(0, 0, 0, 0) url("img/adout/banner.png") repeat scroll 0 0;
@@ -559,7 +563,7 @@ nav.nav-menu-show {
   position:relative;
 }
 .single-silder::before {
-  background: #000 none repeat scroll 0 0;
+  background: none repeat scroll 0 0;
   content: "";
   height: 100%;
   left: 0;
@@ -639,10 +643,9 @@ nav.nav-menu-show {
 .area-title .img {
   width: 500px;
   height: 277px;
-  background-color: #1696E7;
+  border-radius: 4px;
 }
 .area-title .img img {
-  width: 100%;
   height: 100%;
 }
 .area-title .content {
@@ -705,7 +708,7 @@ nav.nav-menu-show {
   background-color: #fff;
 }
 .leftTitle {
-  margin-right: 90px;
+  margin-right: 110px;
 }
 .leftNew {
   padding: 10px 20px;
@@ -783,7 +786,7 @@ nav.nav-menu-show {
   background-color: #fff;
 }
 .development .development_card:first-child {
-  border-top: 1px solid #ccc;
+  /* border-top: 1px solid #ccc; */
 }
 .development .development_card .date {
   padding-top: 6px;
@@ -849,6 +852,11 @@ nav.nav-menu-show {
   position: absolute;
   right: 0;
   width: 100%;
+}
+.aboutUs {
+  color: #000;
+  margin-bottom: 20px;
+  font-weight: 600;
 }
 .area-title.text-white h2 {
   color: #fff;
@@ -2039,7 +2047,7 @@ ul.list-default > li::before {
   top: 12px;
 }
 /* 19. 404 */
-.404-text{}
+/* .404-text{} */
 .error-text h1 {
   color: #df6b38;
   font-family: inherit;
@@ -2075,6 +2083,7 @@ ul.list-default > li::before {
     font-size: 23px;
     margin-bottom: 10px;
     font-family: '黑体';
+    color: #000;
 }
 
 .post .post-content {
@@ -2122,6 +2131,7 @@ ul.list-default > li::before {
 .post .post-title {
   font-size: 20px;
   font-weight: 600;
+  color: #000;
 }
 
  .post .post-content {
