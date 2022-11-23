@@ -245,6 +245,11 @@ label {
   font-family: '黑体';
 }
 
+.top-banner1 {
+  background: rgba(0, 0, 0, 0) url("img/adout/tuandui.png") no-repeat scroll 0 -140px;
+  background-attachment:fixed;
+  background-size: 100% 100%;
+}
 .top-banner {
   background: rgba(0, 0, 0, 0) url("img/adout/banner.png") no-repeat scroll 0 -140px;
   background-attachment:fixed;
@@ -256,13 +261,6 @@ label {
 }
 .bg-2 {
   background: rgba(0, 0, 0, 0) url("img/bg/bg-2.jpg") repeat scroll 0 0;
-}
-.top-banner {
-  background: url('img/adout/banner.png') no-repeat scroll 0 0;
-  /* background-repeat: no-repeat; */
-  /* background-position: center center; */
-  /* background-attachment:fixed; */
-  background-size: 0 200px !important;
 }
 /* .bg-3 {
   background: rgba(0, 0, 0, 0) url("img/adout/banner.png") repeat scroll 0 0;
