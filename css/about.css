@@ -1,0 +1,20 @@
+.center-box-li {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.center-box-li-1 {
+  width: 20px;
+  height: 4px;
+  margin-right: 4px;
+  background-color: #df6b38;
+  border-radius: 2px;
+}
+
+.center-box-li-2 {
+  width: 4px;
+  height: 4px;
+  background-color: #df6b38;
+  border-radius: 2px;
+}
