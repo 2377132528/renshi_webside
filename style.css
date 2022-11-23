@@ -105,7 +105,7 @@ h4 a,
 h5 a,
 h6 a { 
     color: inherit;
-    font-family: serif;
+    font-family: '黑体';
 }
 h1 {
     font-size: 40px;
@@ -137,7 +137,7 @@ p {
   line-height: 24px;
   color: #7e7e7e;
   margin-bottom: 15px;
-  font-family: serif;
+  font-family: '黑体';
 }
 hr {
   border-bottom: 1px solid #eceff8;
@@ -192,7 +192,7 @@ label {
 /* button style */
 .btn {
   -moz-user-select: none;
-  background: rgba(247,147,30, 0.8) none repeat scroll 0 0;
+  background: #df6b38 none repeat scroll 0 0;
   border: medium none;
   border-radius: 2px;
   color: #fff;
@@ -210,9 +210,9 @@ label {
   transition: all 0.3s ease 0s;
   vertical-align: middle;
   white-space: nowrap;
-  font-family: serif;
+  font-family: '黑体';
 }
-.btn.btn-black{background:rgba(247,147,30, 0.8);}
+.btn.btn-black{background:#df6b38;}
 .btn.btn-black:hover{background:#f7931e;}
 .btn:hover{background:#f7931e;color:#fff}
 .btn.btn-large {
@@ -226,23 +226,23 @@ label {
 .btn.btn-base.btn-link {
   background: transparent none repeat scroll 0 0;
   border: 0 none;
-  color: rgba(247,147,30, 0.8);
+  color: #df6b38;
   padding: 0;
   text-decoration: none;
-  font-family: serif;
+  font-family: '黑体';
 }
 .btn.btn-base.btn-link:hover {
   color: #f7931e;
 }
 
-.theme-bg{background: rgba(247,147,30, 0.8)}
+.theme-bg{background: #df6b38}
 .gray-bg{background:#fafafa;}
 .bg-white {
   background-color: #ffffff;
 }
 .breadcrumb > .active {
   color: #f6f6f6;
-  font-family: serif;
+  font-family: '黑体';
 }
 
 .bg-1 {
@@ -316,7 +316,7 @@ label {
   font-size: 14px;
   margin-right: 20px;
   padding: 6px 0;
-  font-family: serif;
+  font-family: '黑体';
 }
 .call-to-action li span {
   font-weight: bold;
@@ -338,28 +338,28 @@ label {
 .basic-menu > li::after {
   background: #d7d7d7 none repeat scroll 0 0;
   content: "";
-  height: 15px;
+  /* height: 15px; */
   position: absolute;
   right: -16px;
   top: 32px;
   transform: rotate(45deg);
   transition: all 0.3s ease 0s;
-  width: 1px;
+  /* width: 1px; */
 }
 .basic-menu > li:last-child:after{display:none}
 .basic-menu li a {
-  color: #505052;
+  color: #000;
   display: inline-block;
   text-transform: uppercase;
   position: relative;
   font-size: 12px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: serif;
+  font-family: '黑体';
   font-weight: 600;
 }
 .basic-menu > li > a::before {
-  background: rgba(247,147,30, 0.8) none repeat scroll 0 0;
+  background: #df6b38 none repeat scroll 0 0;
   bottom: 23px;
   content: "";
   height: 4px;
@@ -369,13 +369,13 @@ label {
   position: absolute;
   right: 0;
   transition: all 0.3s ease 0s;
-  width: 4px;
+  /* width: 4px; */
 }
 .basic-menu > li > a {
   padding: 30px 0;
 }
 .basic-menu li:hover > a {
-  color: rgba(247,147,30, 0.8);
+  color: #df6b38;
 }
 .basic-menu li:hover > a:before{opacity:1;}
 .basic-menu li ul {
@@ -429,13 +429,13 @@ label {
   display: block;
   font-size: 11px;
   padding: 10px 15px;
-  font-family: serif;
+  font-family: '黑体';
 }
 .header-transparent .basic-menu li ul li a {
   color: #232332;
 }
 .basic-menu li ul li:hover > a ,.header-transparent .basic-menu li ul li:hover a {
-  background: rgba(247,147,30, 0.8) none repeat scroll 0 0;
+  background: #df6b38 none repeat scroll 0 0;
   color: #fff;
 }
 .basic-menu li ul li a span {
@@ -567,13 +567,13 @@ nav.nav-menu-show {
   z-index: 9;
 }
 .slider-text h2 {
-  color: #fff;
+  color: #000;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 800;
   text-transform: capitalize;
 }
 .slider-text p {
-  color: #fff;
+  color: #000;
   font-size: 18px;
   margin-bottom: 20px;
   animation-delay: 1.2s;
@@ -589,21 +589,24 @@ nav.nav-menu-show {
   -webkit-animation-name: fadeOutDown;
   animation-name: fadeOutDown; }
 .hero-slide .text-animation h2{
-  font-family: serif;
+  font-family: '黑体';
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s; 
 }
 .owl-item.active .hero-slide h2 {
   animation-name: fadeInUp;
-  font-family: serif;
+  font-family: '黑体';
+  font-size: 52px;
 }
 .owl-item.active .hero-slide p {
-  font-family: serif;
+  font-family: '黑体';
   animation-name: fadeInUp;
+  color: #444444;
 }
 .owl-item.active .slider-text a {
-  font-family: serif;
+  font-family: '黑体';
   animation-name: fadeInUp;
+  border-radius: 20px;
 }
 
 .slider-style-fix .slider-text {
@@ -652,7 +655,7 @@ nav.nav-menu-show {
 .area-title p {
   text-indent: 2em;
   font-size: 18px;
-  font-family: serif;
+  font-family: '黑体';
 }
 .area-title h2,.area-title2 h2 {
   display: inline-block;
@@ -663,19 +666,22 @@ nav.nav-menu-show {
   padding-bottom: 20px;
   position: relative;
   text-transform: uppercase;
-  font-family: serif;
+  font-family: '黑体';
 }
 .area-title2 > h2 {
   margin: 0 0 10px;
   padding: 0;
-  font-family: serif;
+  font-family: '黑体';
 }
 .area-title2 {
   margin-bottom: 45px;
 }
+.suggestions-area {
+  background: url('img/bg/new.png') repeat;
+}
 .logoImg img {
   display: inline-block;
-  height: 163px;
+  height: 222px;
   width: 512px;
 }
 @media (max-width: 767px) {
@@ -683,10 +689,24 @@ nav.nav-menu-show {
     width: 100%;
   }
 }
+.leftNews {
+  margin-right: 90px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #fff;
+}
+.leftTitle {
+  margin-right: 90px;
+}
+.leftNew {
+  padding: 10px 20px;
+  background-color: #fff;
+}
 .linkTitle p{
-  color: #505050;
+  color: #000;
   font-size: 16px;
-  font-family: serif;
+  font-family: '黑体';
+  font-weight: 600;
 }
 .linkTitle p:hover{
   color: #e5963e;
@@ -709,7 +729,7 @@ nav.nav-menu-show {
 .story .date .day {
   font-size: 22px;
   font-weight: 600;
-  font-family: serif;
+  font-family: '黑体';
 }
 .story .date .y_m {
   flex: 1;
@@ -717,13 +737,20 @@ nav.nav-menu-show {
   align-items: end;
   font-size: 18px;
   color: rgb(161, 161, 161);
-  font-family: serif;
+  font-family: '黑体';
 }
 .story .storyContent {
   padding-left: 30px;
   color: rgb(161, 161, 161);
   line-height: 30px;
-  font-family: serif;
+  font-family: '黑体';
+  max-height: 60px;
+  /* 溢出显示省略号 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 #development_container {
   position: relative;
@@ -731,7 +758,7 @@ nav.nav-menu-show {
   height: 475px;
 }
 .development {
-  height: 70%;
+  height: 90%;
   width: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -742,51 +769,68 @@ nav.nav-menu-show {
 .development .development_card {
   display: flex;
   height: 110px;
-  border-bottom: 1px solid #ccc;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+  background-color: #fff;
 }
 .development .development_card:first-child {
   border-top: 1px solid #ccc;
 }
 .development .development_card .date {
-  padding-top: 18px;
+  padding-top: 6px;
   height: 100%;
   width: 100px;
 }
 .development .development_card .date .day {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 600;
-  color: rgb(82, 81, 81);
-  font-family: serif;
+  color: #000;
+  font-family: '黑体';
 }
 .development .development_card .date .y-m {
   font-size: 18px;
   color: rgb(110, 110, 110);
-  font-family: serif;
+  font-family: '黑体';
+}
+.development .development_card .date .y-m::after {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 1px;
+  background-color: #ccc;
+  margin-top: 4px;
 }
 .development .development_card .info {
   width: 458px;
   padding-left: 30px;
-  padding-top: 22px;
+  padding-top: 7px;
   font-size: 16px;
   
 }
 .development .development_card .info .title {
-  margin-bottom: 20px;
-  font-family: serif;
+  width: 50%;
+  max-width: 50%;
+  overflow: hidden;
+  margin-bottom: 15px;
+  white-space: nowrap;
+  font-family: '黑体';
+  font-weight: 600;
+  color: #000;
+  text-overflow: ellipsis;
 }
 .development .development_card .info .title:hover {
   cursor: pointer;
   color: #e5963e;
 }
 .development .development_card .info .content {
-  width: 370px;
+  width: 75%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-family: serif;
+  font-family: '黑体';
 }
 .area-title h2::after {
-  background: rgba(247,147,30, 0.8) none repeat scroll 0 0;
+  background: #df6b38 none repeat scroll 0 0;
   bottom: 0;
   content: "";
   display: block;
@@ -825,11 +869,11 @@ nav.nav-menu-show {
   font-weight: 700;
   margin: 25px 0 17px;
   text-transform: uppercase;
-  font-family: serif;
+  font-family: '黑体';
 }
 .features-box p {
   margin-bottom: 25px;
-  font-family: serif;
+  font-family: '黑体';
 }
 #AISF img{
   display: inline-block;
@@ -1158,14 +1202,14 @@ h2.department-name {
   text-align: center;
 }
 .doctor-box .doctor-name .heading {
-  color: rgba(247,147,30, 0.8);
+  color: #df6b38;
 }
 .doctor-box .doctor-name .doctor-desig {
   display: block;
   margin-top: 10px;
 }
 hr.hr-1 {
-  border-bottom: 2px solid rgba(247,147,30, 0.8);
+  border-bottom: 2px solid #df6b38;
   margin: 20px auto;
   width: 50px;
 }
@@ -1175,7 +1219,7 @@ hr.hr-1 {
 }
 
 .doctor-contact {
-  background-color: rgba(247,147,30, 0.8);
+  background-color: #df6b38;
   color: #fff;
   margin-bottom: 20px;
   padding: 20px;
@@ -1194,7 +1238,7 @@ hr.hr-1 {
   background-color: #fff;
   border-radius: 50%;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
-  color: rgba(247,147,30, 0.8);
+  color: #df6b38;
   float: left;
   font-size: 14px;
   height: 25px;
@@ -1206,11 +1250,11 @@ hr.hr-1 {
 .doctor-details .doctor-name {
   font-weight: 500;
   margin-bottom: 10px;
-  font-family: serif;
+  font-family: '黑体';
 }
 .doctor-details .doctor-desig {
-  color: rgba(247,147,30, 0.8);
-  font-family: serif;
+  color: #df6b38;
+  font-family: '黑体';
 }
 .doctor-details .doctor-edu li {
   background-color: #f2f2f2;
@@ -1219,7 +1263,7 @@ hr.hr-1 {
   font-weight: 400;
   margin-right: 10px;
   padding: 3px 10px;
-  font-family: serif;
+  font-family: '黑体';
 }
 .doctor-details .doctor-edu {
   list-style: outside none none;
@@ -1241,12 +1285,12 @@ ul.list-styled > li {
   padding: 6px 10px 6px 0;
   position: relative;
   text-align: left;
-  font-family: serif;
+  font-family: '黑体';
 }
 ul.list-styled > li::before {
-  border: 1px solid rgba(247,147,30, 0.8);
+  border: 1px solid #df6b38;
   border-radius: 50%;
-  color: rgba(247,147,30, 0.8);
+  color: #df6b38;
   content: "";
   display: inline-block;
   font: 15px/15px FontAwesome;
@@ -1534,8 +1578,8 @@ color: #ffffff;
 }
 .custom-tab li.active a {
   background: #fff none repeat scroll 0 0;
-  border-color: rgba(247,147,30, 0.8);
-  font-family: serif;
+  border-color: #df6b38;
+  font-family: '黑体';
 }
 .tab-content.suggestions .tab-pane {
   background-color: #fff;
@@ -1574,7 +1618,7 @@ color: #ffffff;
 }
 
 .panel-default > .panel-heading {
-  background-color: rgba(247,147,30, 0.8);
+  background-color: #df6b38;
   border-radius: 0;
   color: #fff;
   height: 40px;
@@ -1590,13 +1634,13 @@ color: #ffffff;
 .panel-title > a {
   color: #fff;
   display: block;
-  font-family: serif;
+  font-family: '黑体';
 }
 .panel-title .fa {
   margin-right: 10px;
 }
 #panel-body {
-  font-family: serif;
+  font-family: '黑体';
 }
 /* 12. testimonial */
 .testimonial-box{}
@@ -1643,7 +1687,7 @@ margin: 0;}
   font-weight: 700;
   letter-spacing: 6px;
   text-transform: uppercase;
-  font-family: serif;
+  font-family: '黑体';
 }
 .breadcrumb {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
@@ -1652,8 +1696,8 @@ margin: 0;}
   padding: 0;
 }
 .breadcrumb > li > a {
-  color: rgba(247,147,30, 0.8);
-  font-family: serif;
+  color: #df6b38;
+  font-family: '黑体';
 }
 .bg-opacity{position:relative;}
 .bg-opacity:before {
@@ -1677,7 +1721,7 @@ margin: 0;}
   font-weight: 500;
   letter-spacing: 2px;
   margin-bottom: 15px;
-  font-family: serif;
+  font-family: '黑体';
 }
 .contact-person .map {
   width: 400px;
@@ -1988,7 +2032,7 @@ ul.list-default > li::before {
 /* 19. 404 */
 .404-text{}
 .error-text h1 {
-  color: rgba(247,147,30, 0.8);
+  color: #df6b38;
   font-family: inherit;
   font-size: 200px;
   font-weight: bold;
@@ -2021,7 +2065,7 @@ ul.list-default > li::before {
 .post .post-title {
     font-size: 23px;
     margin-bottom: 10px;
-    font-family: serif;
+    font-family: '黑体';
 }
 
 .post .post-content {
@@ -2049,11 +2093,11 @@ ul.list-default > li::before {
     font-weight: 700;
     font-size: 11px;
     color: #999;
-    font-family: serif;
+    font-family: '黑体';
 }
 
 .post-meta > li > a {
-  color: rgba(247,147,30, 0.8);
+  color: #df6b38;
 }
 
 .post-meta > li + li:before {
@@ -2838,20 +2882,26 @@ ul.tag li a:hover{background:#1696E7;border-color:#1696E7;color:#fff}
 /* 27. link-shop */
 .linkShop {
   height: 200px;
-  /* background: url('img/bg/bg-1.jpg') repeat; */
+}
+.linkShop .bgImg {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
 }
 .linkShop .link {
-  display: block;
-  height: 200px;
+  position: relative;
+  top: -122px;
+  display: inline-block;
+  height: 122px;
   width: 100%;
-  background-color: rgba(247,147,30, 0.8);
+  /* background-color: #df6b38; */
   font-size: 20px;
   line-height: 200px;
   color: #646464;
 }
 
 a#scrollUp {
-  background: rgba(247,147,30, 0.8) none repeat scroll 0 0;
+  background: #df6b38 none repeat scroll 0 0;
   bottom: 50px;
   color: #fff;
   height: 40px;
