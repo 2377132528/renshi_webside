@@ -736,6 +736,11 @@ nav.nav-menu-show {
   height: 60px;
   border-right: 1px solid #ccc;
 }
+@media (min-width: 480px) {
+  .story .date {
+    padding-right: 30px;
+  }
+}
 .story .date .day {
   font-size: 22px;
   font-weight: 600;
@@ -838,6 +843,11 @@ nav.nav-menu-show {
   overflow: hidden;
   text-overflow: ellipsis;
   font-family: '黑体';
+}
+@media (min-width: 480px) {
+  .development .development_card .info .content {
+    width: 60%;
+  }
 }
 .area-title h2::after {
   background: #df6b38 none repeat scroll 0 0;
