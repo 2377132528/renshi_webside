@@ -135,7 +135,7 @@ p {
   font-size: 14px;
   font-weight: normal;
   line-height: 24px;
-  color: #7e7e7e;
+  color: #626262;
   margin-bottom: 15px;
   font-family: '黑体';
 }
@@ -612,7 +612,7 @@ nav.nav-menu-show {
 .owl-item.active .hero-slide p {
   font-family: '黑体';
   animation-name: fadeInUp;
-  color: #444444;
+  color: #626262;
 }
 .owl-item.active .slider-text a {
   font-family: '黑体';
@@ -634,6 +634,9 @@ nav.nav-menu-show {
 .single-silder .container{height:100%}
 
 /* 4. about-area */
+.aboutTitle {
+  padding-left: 16px;
+}
 .area-title {
   margin: 0px 0px 60px 0px;
   width: 100%;
@@ -648,10 +651,14 @@ nav.nav-menu-show {
 }
 .area-title .content {
   display: flex;
+  padding: 0 16px;
+}
+.area-title .content .left {
+  margin-right: 50px;
 }
 .area-title .content .text {
-  padding-right: 50px;
-  width: 70%;
+  /* padding-right: 50px;
+  width: 70%; */
 }
 @media (max-width: 767px) {
   .area-title .content {
@@ -676,7 +683,7 @@ nav.nav-menu-show {
   padding-bottom: 20px;
   position: relative;
   text-transform: uppercase;
-  font-family: '黑体';
+  font-family: fantasy;
 }
 .area-title2 > h2 {
   margin: 0 0 10px;
@@ -751,12 +758,12 @@ nav.nav-menu-show {
   display: flex;
   align-items: end;
   font-size: 18px;
-  color: rgb(161, 161, 161);
+  color: #626262;
   font-family: '黑体';
 }
 .story .storyContent {
   padding-left: 30px;
-  color: rgb(161, 161, 161);
+  color: #626262;
   line-height: 30px;
   font-family: '黑体';
   max-height: 60px;
@@ -804,7 +811,7 @@ nav.nav-menu-show {
 }
 .development .development_card .date .y-m {
   font-size: 18px;
-  color: rgb(110, 110, 110);
+  color: #626262;
   font-family: '黑体';
 }
 .development .development_card .date .y-m::after {
@@ -859,12 +866,14 @@ nav.nav-menu-show {
   left: 0;
   position: absolute;
   right: 0;
+  left: 16px;
   width: 100%;
 }
 .aboutUs {
   color: #000;
   margin-bottom: 20px;
   font-weight: 600;
+  padding-left: 16px;
 }
 .area-title.text-white h2 {
   color: #fff;
@@ -1273,9 +1282,9 @@ hr.hr-1 {
   width: 25px;
 }
 .doctor-details .doctor-name {
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 10px;
-  font-family: '黑体';
+  font-family: fantasy;
 }
 .doctor-details .doctor-desig {
   color: #df6b38;
@@ -1743,10 +1752,10 @@ margin: 0;}
 /* 14. contact */
 .contact-person > h4 {
   font-size: 19px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 2px;
   margin-bottom: 15px;
-  font-family: '黑体';
+  font-family: fantasy;
 }
 .contact-person .map {
   width: 400px;
