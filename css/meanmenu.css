@@ -19,6 +19,19 @@ a.meanmenu-reveal{display:none;}
 .mean-container .mean-bar, .mean-container .mean-bar *{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;}
 .mean-remove{display:none !important;}
 
+@media (min-width: 480px) {
+  .mean-container .mean-nav ul li a.mean-expand {
+    height: 58%;
+  }
+
+  .mean-container .mean-nav ul li a {
+    color: #fff;
+  }
+
+  .mean-container .mean-nav ul li a:hover {
+    color: #db6937;
+  }
+}
 
 .mean-nav > ul {
   height: 300px;
