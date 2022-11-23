@@ -382,7 +382,7 @@ label {
   transition: all 0.3s ease 0s;
   /* width: 4px; */
 }
-@media (min-width: 480px) {
+@media screen and (min-width: 100px) and (max-width: 992px) {
   .basic-menu > li > a::before {
     background: #df6b38 none repeat scroll 0 0;
     bottom: 0px;
