@@ -715,6 +715,11 @@ nav.nav-menu-show {
   height: 222px;
   width: 512px;
 }
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .logoImg img {
+    width: 100%;
+  }
+}
 @media (max-width: 767px) {
   .logoImg img {
     width: 100%;
@@ -725,6 +730,11 @@ nav.nav-menu-show {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #fff;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .leftNews {
+    width: 100%;
+  }
 }
 .leftTitle {
   margin-right: 110px;
@@ -799,6 +809,12 @@ nav.nav-menu-show {
   overflow-y: scroll;
   overflow-x: hidden;
 }
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .development {
+    width: 992px;
+  }
+}
+
 .development::-webkit-scrollbar {
   width: 0;
 }
@@ -2931,7 +2947,51 @@ ul.tag li a:hover{background:#1696E7;border-color:#1696E7;color:#fff}
 
 /* 27. link-shop */
 .linkShop {
-  height: 200px;
+  /* height: 200px; */
+  display: block;
+}
+.linkXs {
+  position: relative;
+  height: 115px;
+  background: url('img/bg/shop.png') no-repeat;
+  background-size: cover;
+  display: none;
+}
+.linkXs .link {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+}
+.linkXs .title {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  color: #fff;
+  font-size: 24px;
+  font-family: '黑体';
+  font-weight: 600;
+}
+.linkXs .more {
+  padding: 4px 10px;
+  position: absolute;
+  left: 10%;
+  top: 45%;
+  color: #fff;
+  font-size: 16px;
+  font-family: '黑体';
+  font-weight: 600;
+  border: 1px solid #fff;
+  border-radius: 25px;
+}
+@media screen and (min-width: 100px) and (max-width: 767px) {
+  .linkShop {
+    display: none;
+  }
+  .linkXs {
+    display: block;
+  }
 }
 .linkShop .bgImg {
   display: inline-block;
