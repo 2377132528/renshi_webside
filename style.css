@@ -918,7 +918,7 @@ nav.nav-menu-show {
 }
 @media screen and (min-width: 100px) and (max-width: 992px) {
   .development .development_card .info .content {
-    width: 60%;
+    width: 55%;
   }
 }
 .area-title h2::after {
