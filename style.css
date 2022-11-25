@@ -796,11 +796,24 @@ nav.nav-menu-show {
   cursor: pointer;
 }
 .story .date {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 166px;
   height: 60px;
-  border-right: 1px solid #ccc;
+  /* border-right: 1px solid #ccc; */
+}
+.story .date::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  right: -16%;
+  top: 50%;
+  height: 1px;
+  width: 30px;
+  background-color: #ccc;
+  transform: rotate(90deg);
+  transform-origin: bottom;
 }
 @media screen and (min-width: 100px) and (max-width: 992px) {
   .story .date {
