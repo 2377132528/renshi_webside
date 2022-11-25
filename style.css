@@ -251,13 +251,23 @@ label {
   background-size: 100% 100%;
 }
 .top-banner {
-  background: rgba(0, 0, 0, 0) url("img/adout/banner.png") no-repeat scroll 0 -140px;
+  background: rgba(0, 0, 0, 0) url("img/adout/banner-1.png") no-repeat scroll 0 -140px;
   background-attachment:fixed;
   background-size: 100% 100%;
 }
 .bg-1 {
-  background: url("img/bg/bg-5.png") repeat scroll 0 0;
+  background: url("img/bg/bg-5-1.png") repeat scroll 0 0;
   background-position: 0 -260px !important;
+}
+@media screen and (min-width: 100px) and (max-width: 992px) {
+  .bg-1 {
+    background-position: 0 -120px !important;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .bg-1 {
+    background-position: 0 -120px !important;
+  }
 }
 .bg-2 {
   background: rgba(0, 0, 0, 0) url("img/bg/bg-2.jpg") repeat scroll 0 0;
@@ -674,6 +684,18 @@ nav.nav-menu-show {
   /* padding-right: 50px;
   width: 70%; */
 }
+@media screen and (min-width: 100px) and (max-width: 992px) {
+  .center-title {
+    width: 100% !important;
+  }
+  .area-title .content .left {
+    margin-right: 0;
+  }
+  .area-title .img {
+    width: 100%;
+    text-align: center;
+  }
+}
 @media (max-width: 767px) {
   .area-title .content {
     display: flex;
@@ -723,6 +745,9 @@ nav.nav-menu-show {
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .logoImg img {
     width: 100%;
+  }
+  .bg-1 {
+    background-position: 0 -120px !important;
   }
 }
 @media (max-width: 767px) {
