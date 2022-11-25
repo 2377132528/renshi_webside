@@ -21,7 +21,7 @@ a.meanmenu-reveal{display:none;}
 
 @media screen and (min-width: 100px) and (max-width: 992px) {
   .mean-container .mean-nav ul li a.mean-expand {
-    height: 58%;
+    /* height: 100%; */
   }
 
   .mean-container .mean-nav ul li a {

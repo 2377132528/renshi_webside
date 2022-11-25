@@ -356,6 +356,11 @@ label {
   position: relative;
   transition: all 0.3s ease 0s;
 }
+@media screen and (min-width: 100px) and (max-width: 992px) {
+  .basic-menu li {
+    margin-left: 0px;
+  }
+}
 .basic-menu > li::after {
   background: #d7d7d7 none repeat scroll 0 0;
   content: "";
@@ -773,6 +778,14 @@ nav.nav-menu-show {
 }
 .rightTitle {
   padding-left: 15px;
+}
+@media screen and (min-width: 100px) and (max-width: 992px) {
+  .rightTitle h2 {
+    padding-left: 15px;
+  }
+  .rightTitle p {
+    padding-left: 15px;
+  }
 }
 .leftNew {
   padding: 10px 20px;
