@@ -363,7 +363,7 @@ label {
   display: inline-block;
   text-transform: uppercase;
   position: relative;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: '黑体';
@@ -668,7 +668,7 @@ nav.nav-menu-show {
   padding: 0 16px;
 }
 .area-title .content .left {
-  margin-right: 50px;
+  margin-right: 16px;
 }
 .area-title .content .text {
   /* padding-right: 50px;
@@ -684,7 +684,7 @@ nav.nav-menu-show {
   }
 }
 .area-title p {
-  text-indent: 2em;
+  /* text-indent: 2em; */
   font-size: 18px;
   font-family: '黑体';
 }
@@ -693,7 +693,7 @@ nav.nav-menu-show {
   font-size: 28px;
   font-weight: 600;
   letter-spacing: 2px;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   padding-bottom: 20px;
   position: relative;
   text-transform: uppercase;
@@ -702,7 +702,12 @@ nav.nav-menu-show {
 .area-title2 > h2 {
   margin: 0 0 10px;
   padding: 0;
+  color: #000;
   font-family: '黑体';
+}
+#Enterprise_dis {
+  color: #000;
+  font-weight: 600;
 }
 .area-title2 {
   margin-bottom: 45px;
@@ -713,7 +718,7 @@ nav.nav-menu-show {
 .logoImg img {
   display: inline-block;
   height: 222px;
-  width: 512px;
+  width: 100%;
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .logoImg img {
@@ -727,9 +732,11 @@ nav.nav-menu-show {
 }
 .leftNews {
   margin-right: 90px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 15px 15px;
   background-color: #fff;
+}
+.leftNews .leftSide {
+  padding: 0;
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .leftNews {
@@ -737,7 +744,10 @@ nav.nav-menu-show {
   }
 }
 .leftTitle {
-  margin-right: 110px;
+  margin-right: 120px;
+}
+.rightTitle {
+  padding-left: 15px;
 }
 .leftNew {
   padding: 10px 20px;
@@ -775,7 +785,7 @@ nav.nav-menu-show {
 .story .date .day {
   font-size: 22px;
   font-weight: 600;
-  font-family: '黑体';
+  font-family: SourceHanSerifCN-Bold;
 }
 .story .date .y_m {
   flex: 1;
@@ -822,7 +832,7 @@ nav.nav-menu-show {
   display: flex;
   height: 110px;
   padding: 20px 30px;
-  margin-bottom: 30px;
+  margin-bottom: 33px;
   background-color: #fff;
 }
 .development .development_card:first-child {
@@ -837,7 +847,7 @@ nav.nav-menu-show {
   font-size: 20px;
   font-weight: 600;
   color: #000;
-  font-family: '黑体';
+  font-family: SourceHanSerifCN-Bold;
 }
 .development .development_card .date .y-m {
   font-size: 18px;
@@ -934,6 +944,7 @@ nav.nav-menu-show {
   margin: 25px 0 17px;
   text-transform: uppercase;
   font-family: '黑体';
+  color: #000;
 }
 .features-box p {
   margin-bottom: 25px;
